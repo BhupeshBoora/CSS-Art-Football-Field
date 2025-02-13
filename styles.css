@@ -14,14 +14,9 @@ body
     align-self: flex-end;
 }
 
-@media (max-width: 1020px)
+@media (max-width: 1376px)
 {
     .container
-    {
-        transform: rotate(90deg);
-    }
-
-    .dots
     {
         transform: rotate(90deg);
     }
@@ -29,7 +24,6 @@ body
     #art
     {
         transform: rotate(270deg);
-        
     }
 }
 
@@ -43,7 +37,7 @@ body
     width: 1020px;
     background-color: #6A994E;
 
-    border: 7px solid #F2E8CF;
+    border: 5px solid #F2E8CF;
 }
 
 .goal
@@ -51,7 +45,7 @@ body
     height: 400px;
     width: 200px;
     background-color: #6A994E;
-    border: 7px solid #F2E8CF;
+    border: 5px solid #F2E8CF;
 
     display: flex;
     flex-direction: row;
@@ -98,7 +92,7 @@ body
     border-right-color: #F2E8CF;
 
     position: relative;
-    left: 28px;
+    left: 25px;
 }
 
 .keeperleft
@@ -114,7 +108,7 @@ body
     border-right: 0px;
 
     position: relative;
-    right: 23px;
+    right: 21px;
 }
 
 /* Middle Circle Settings */
@@ -129,7 +123,7 @@ body
     border-radius: 50%;
 
     position: relative;
-    left: 1px;
+    left: 3px;
 }
 
 .midline
@@ -140,41 +134,6 @@ body
 
     position: absolute;
     left: 50%;
-}
-
-.dots
-{
-    display: flex;
-    width: 1020px;
-    justify-content: space-between;
-    position: absolute;
-}
-
-.dots > *
-{
-    height: 15px;
-    width: 15px;
-    background-color: #F2E8CF;
-
-    border-radius: 50%;
-}
-
-.dot1
-{
-    position: relative;
-    left: 135px;
-}
-
-.dot2
-{
-    position: relative;
-    left: 1.5px;
-}
-
-.dot3
-{
-    position: relative;
-    right: 135px;
 }
 
 /* Right Goal Settings */
@@ -189,7 +148,7 @@ body
     border-left-color: #F2E8CF;
 
     position: relative;
-    right: 28px;
+    right: 102px;
 }
 
 .keeperright
@@ -197,7 +156,7 @@ body
     border-right: 0px;
 
     position: relative;
-    left: 20px;
+    left: 125px;
 }
 
 .netright
@@ -207,6 +166,6 @@ body
     order:2;
 
     position: relative;
-    left: 23px;
+    left: 21px;
 }
 
