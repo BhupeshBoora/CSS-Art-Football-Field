@@ -14,7 +14,7 @@ body
     align-self: flex-end;
 }
 
-@media (max-width: 1376px)
+@media (max-width: 1020px)
 {
     .container
     {
