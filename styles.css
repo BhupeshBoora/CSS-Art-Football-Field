@@ -29,9 +29,7 @@ body
     #art
     {
         transform: rotate(270deg);
-        position: absolute;
-        left: 100px;
-        top: 485px;
+        
     }
 }
 
@@ -61,13 +59,7 @@ body
     justify-content:space-between;
 }
 
-/* Left Goal Settings */
-.goalleft
-{
-    border-left: 0px;
-}
-
-.dleft
+.d
 {
     height: 200px;
     width: 200px;
@@ -77,6 +69,32 @@ body
     border: 5px solid #F2E8CF;
     border-radius: 50%;
     border-color: transparent;
+}
+
+.keeper
+{
+    height: 250px;
+    width: 150px;
+    border: 5px solid #F2E8CF;
+
+    order: 1;
+}
+
+.net
+{
+    height: 60px;
+    width: 25px;
+    border: 5px solid #F2E8CF;
+}
+
+/* Left Goal Settings */
+.goalleft
+{
+    border-left: 0px;
+}
+
+.dleft
+{
     border-right-color: #F2E8CF;
 
     position: relative;
@@ -85,12 +103,7 @@ body
 
 .keeperleft
 {
-    height: 250px;
-    width: 150px;
-    border: 5px solid #F2E8CF;
     border-left: 0px;
-    
-    order: 1;
 
     position: relative;
     right: 20px;
@@ -98,9 +111,6 @@ body
 
 .netleft
 {
-    height: 60px;
-    width: 25px;
-    border: 5px solid #F2E8CF;
     border-right: 0px;
 
     position: relative;
@@ -176,12 +186,6 @@ body
 
 .dright
 {
-    height: 200px;
-    width: 200px;
-
-    border: 5px solid #F2E8CF;
-    border-radius: 50%;
-    border-color: transparent;
     border-left-color: #F2E8CF;
 
     position: relative;
@@ -190,12 +194,7 @@ body
 
 .keeperright
 {
-    height: 250px;
-    width: 150px;
-    border: 5px solid #F2E8CF;
     border-right: 0px;
-    
-    order: 1;
 
     position: relative;
     left: 20px;
@@ -203,9 +202,6 @@ body
 
 .netright
 {
-    height: 60px;
-    width: 25px;
-    border: 5px solid #F2E8CF;
     border-left: 0px;
 
     order:2;
